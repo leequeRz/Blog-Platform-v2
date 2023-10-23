@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-blue-500 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-white text-xl font-bold">GAME BLOG</a>
+
+        <!-- Mobile Menu Button (Hamburger Icon) -->
+        <div class="lg:hidden">
+          <button id="mobile-menu-button" class="text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="h-6 w-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 9a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0-4a1 1 0 110-2h12a1 1 0 110 2H4a1 1 0 110-2zm0 8a1 1 0 010-2h12a1 1 0 010 2H4a1 1 0 010-2z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex space-x-10">
+          <a href="index.html" class="text-white">Home</a>
+          <a href="Blogpage.html" class="text-white">Blogpage</a>
+          <a href="createblog.html" class="text-white">CreateBlog</a>
+          <a href="seacrhblog.html" class="text-white">SearchBlog</a>
+          <a href="login.html" class="text-white">Login</a>
+          <a href="register.html" class="text-white">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-blue-500">
+      <a href="#" class="block p-3 text-white">Home</a>
+      <a href="#" class="block p-3 text-white">Blogpage</a>
+      <a href="#" class="block p-3 text-white">CreateBlog</a>
+      <a href="#" class="block p-3 text-white">Login</a>
+      <a href="#" class="text-white">Register </a>
+    </div>
+
+    <!-- Main Content Section -->
+    <section class="container mx-auto mt-8 px-4 lg:px-0">
+      <div class="text-center">
+        <h1 class="text-4xl font-semibold mb-4">
+          จับตา 8 เกมใหม่ 2023 ชื่อดังจากสตูดิโอชั้นนำ เจอกันเร็วๆ นี้แน่นอน!
+        </h1>
+        <p class="text-sm text-gray-600 mb-2">
+          By Caffeine Addicted - December 27, 2022
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1606318801954-d46d46d3360a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGxheSUyMGdhbWV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+          alt=""
+          class="h-auto w-full lg:max-w-2xl mx-auto mb-8"
+        />
+        <div class="text-lg text-gray-800 leading-relaxed">
+          เกมใหม่ 2023 นี้ หลายๆ
+          เกมจะเปิดให้เล่นหลากหลายแพลตฟอร์มทั้งพีซีและเครื่องคอนโซลด้วย
+          แต่ยกเว้นบางเกมที่ยังประกาศเพียงแพลตฟอร์มเดียวอยู่เพราะทางผู้พัฒนาเน้นโฟกัสแพลตฟอร์มนั้นๆ
+          หรือจะด้วยเหตุผลอะไรก็ตาม และแม้เกมดังกล่าวจะน่าสนใจแค่ไหนก็ตาม
+          แต่ผู้เขียนจะขอเลือกแนะนำเฉพาะเกมที่มีให้เล่นในพีซีเป็นหลักเพื่อให้เกมเมอร์ที่อยากหาเกมใหม่มาเติมเข้าคลัง
+          Steam ของตัวเองมีเยอะยิ่งขึ้น เกมเมอร์ที่เล่นเกมเก่า
+          เคลียร์เกมที่ค้างอยู่จนจะหมดแล้วกำลังรอดูว่าเกมใหม่ 2023
+          นี้จะมีเกมอะไรให้ซื้อไปเล่นบ้าง
+          ผู้เขียนเองก็เลือกเกมใหม่และเกมภาคต่อที่เกมเมอร์กำลังสนใจอยู่มาแนะนำทั้งหมด
+          8 เกมด้วยกัน โดยมีเกมดังนี้
+        </div>
+      </div>
+      <div class="flex flex-row justify-center text-center">
+        <ol class="list-decimal mt-8">
+          <li>Forspoken (25 มกราคม 2023)</li>
+          <li>Dead Space Remake (27 มกราคม 2023)</li>
+          <li>Deliver Us Mars (2 กุมภาพันธ์ 2023)</li>
+          <li>Hogwarts Legacy (11 กุมภาพันธ์ 2023)</li>
+          <li>Like a Dragon: Ishin! (21 กุมภาพันธ์ 2023)</li>
+          <li>Sons of the Forest (ภายในเดือนกุมภาพันธ์ 2023)</li>
+          <li>Wanted: Dead (14 กุมภาพันธ์ 2023)</li>
+          <li>ARK 2 (ภายในปี 2023)</li>
+        </ol>
+      </div>
+      <hr class="mt-8" />
+
+      <!-- Comment Form Section -->
+      <div class="mt-8 mb-8">
+        <form class="w-full max-w-lg mx-auto">
+          <div class="mb-4">
+            <label for="comment" class="block text-xl font-medium text-gray-900"
+              >Comment</label
+            >
+            <textarea
+              id="comment"
+              name="comment"
+              rows="8"
+              class="w-full rounded-md border border-gray-300 py-2 px-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      // JavaScript to toggle the mobile menu
+      document
+        .getElementById("mobile-menu-button")
+        .addEventListener("click", function () {
+          var mobileMenu = document.getElementById("mobile-menu");
+          mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>

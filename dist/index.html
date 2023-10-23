@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Blog</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-xl font-bold">GAME BLOG</a>
+            
+            <!-- Mobile Menu Button (Hamburger Icon) -->
+            <div class="lg:hidden">
+                <button id="mobile-menu-button" class="text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-6 w-6">
+                        <path fill-rule="evenodd" d="M3 9a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0-4a1 1 0 110-2h12a1 1 0 110 2H4a1 1 0 110-2zm0 8a1 1 0 010-2h12a1 1 0 010 2H4a1 1 0 010-2z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex space-x-10">
+                <a href="index.html" class="text-white">Home</a>
+                <a href="Blogpage.html" class="text-white">Blogpage</a>
+                <a href="createblog.html" class="text-white">CreateBlog</a>
+                <a href="seacrhblog.html" class="text-white">SearchBlog</a>
+                <a href="login.html" class="text-white">Login</a>
+                <a href="register.html" class="text-white">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-blue-500">
+        <a href="#" class="block p-3 text-white">Home</a>
+        <a href="#" class="block p-3 text-white">Blogpage</a>
+        <a href="#" class="block p-3 text-white">CreateBlog</a>
+        <a href="#" class="block p-3 text-white">Login</a>
+        <a href="#" class="text-white">Register </a>
+    </div>
+
+    <section>
+        <div class="container mx-auto px-4 mt-16 lg:mt-24">
+            <div class="text-2xl font-semibold mb-6">Recent blog post</div>
+            <div class="grid gap-6 md:grid-cols-2">
+                <div>
+                    <img src="https://img.youtube.com/vi/lWr6dhTcu-E/maxresdefault.jpg" alt="valorant" class="w-full h-56 object-cover">
+                    <div class="space-y-3 mt-6">
+                        <span class="text-sm text-blue-700 font-semibold">Bundit Than-iam - 7 October 2023</span>
+                        <a href="#" class="flex justify-between">
+                            <h3 class="text-2xl font-semibold">Top 5 game FPS Shooting</h3>
+                        </a>
+                        <p class="text-gray-500">Most people play game in 2023 about FPS shooting. </p>
+                    </div>
+                    <div class="flex mt-6 space-x-2">
+                        <span class="px-2 py-1 text-sm text-orange-700 font-medium bg-orange-50 rounded-full">FPS</span>
+                        <span class="px-2 py-1 text-sm text-pink-700 font-medium bg-orange-50 rounded-full">2023</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="pb-6 items-center lg:flex lg:space-x-4">
+                        <img src="https://images.news18.com/ibnlive/uploads/2023/07/ea-sports-fc-24-releases-on-september-29-check-price-gameplay-features-here-16893304883x2.jpg" alt="fc2024"
+                        class="w-full h-56 object-cover lg:w-1/2 lg:h-48">
+                        <div class="mt-6 lg:mt-0">
+                            <div class="space-y-3">
+                                <span class="text-sm text-blue-700 font-semibold">Bundit Than-iam - 7 October 2023</span>
+                                <a href="#">
+                                    <h3 class="text-2xl font-semibold">FC 2024 Finally was release</h3>
+                                </a>
+                                <p class="text-gray-500">Football game in the next generation </p>
+                            </div>
+                            <div class="flex mt-6 space-x-2">
+                                <span class="px-2 py-1 text-sm text-orange-700 font-medium bg-orange-50 rounded-full">Football</span>
+                                <span class="px-2 py-1 text-sm text-pink-700 font-medium bg-orange-50 rounded-full">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items-center lg:flex lg:space-x-4">
+                        <img src="https://d1af7m13b2f34i.cloudfront.net/media/league-of-legends-worlds-2023-sportstiger-1673357714695-original.jpg" alt="lol world 2023"
+                        class="w-full h-56 object-cover lg:w-1/2 lg:h-48">
+                        <div class="mt-6 lg:mt-0">
+                            <div class="space-y-3">
+                                <span class="text-sm text-blue-700 font-semibold">Bundit Than-iam - 7 October 2023</span>
+                                <a href="#">
+                                    <h3 class="text-2xl font-semibold">LOL Worlds 2023</h3>
+                                </a>
+                                <p class="text-gray-500">Big-Tournament about the MOBA Game. </p>
+                            </div>
+                            <div class="flex mt-6 space-x-2">
+                                <span class="px-2 py-1 text-sm text-orange-700 font-medium bg-orange-50 rounded-full">MOBA</span>
+                                <span class="px-2 py-1 text-sm text-pink-700 font-medium bg-orange-50 rounded-full">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="container mx-auto mb-5 px-4 mt-16 lg:mt-24 max-w-3xl sm:px-0">
+            <div class="sm:w-7/12 sm:mx-auto">
+              <div 
+                role="tablist"
+                aria-label="tabs"
+                class="relative w-max mx-auto h-12 grid grid-cols-3 items-center px-[3px] rounded-full bg-gray-900/20 overflow-hidden shadow-2xl shadow-900/20 transition"
+              >
+                <div class="absolute indicator h-11 my-auto top-0 bottom-0 left-0 rounded-full bg-white shadow-md"></div>
+                <button
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="panel-1"
+                  id="tab-1"
+                  tabindex="0"
+                  class="relative block h-10 px-6 tab rounded-full"
+                >
+                  <span class="text-gray-800">First Tab</span>
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="panel-2"
+                  id="tab-2"
+                  tabindex="-1"
+                  class="relative block h-10 px-6 tab rounded-full"
+                >
+                  <span class="text-gray-800">Second Tab</span>
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="panel-3"
+                  id="tab-3"
+                  tabindex="-1"
+                  class="relative block h-10 px-6 tab rounded-full"
+                >
+                  <span class="text-gray-800">Third Tab</span>
+                </button>
+              </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto mb-5 px-4 mt-16 lg:mt-24">
+            <h2 class="text-2xl font-semibold mb-6">Popular blog posts</h2>
+            <div id="test" class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+                
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
